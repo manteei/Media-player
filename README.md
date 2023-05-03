@@ -17,4 +17,4 @@
 
 Реализация средствами HTML5, CSS3, JS, SVG, HTML5 Audio API. Без использования сторонних библиотек.
 
-![Image alt](https://github.com/manteei/Media-player/player.png)
+![Image alt](https://github.com/manteei/Media-player/raw/master/player.png)
