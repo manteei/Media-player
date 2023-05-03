@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music player</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="view.css">
+</head>
+<body>
+<div class="gallery-container">
+    <canvas id="canvas1" class="canvas"></canvas>
+    <div class="gallery">
+        <div>
+            <img src="img/2517.png" alt="Image 1" id="img" width="300" height="300">
+        </div>
+        <div class="names">
+            <p id="group">25/17</p>
+            <p id="song">Будьте счастливы</p>
+        </div>
+        <div class="tools">
+            <button id="prev-btn" class="toggle"><</button>
+            <audio src="music/62517.mp3" id="audio"></audio>
+            <button id="play" onclick="toggleAudio()" class="toggle">►</button>
+            <button id="next-btn" class="toggle">></button>
+        </div>
+        <div id="progress-bar" onclick="changeCurrentTime(event)">
+            <div id="progress"></div>
+        </div>
+    </div>
+    <canvas id="canvas2" class="canvas"></canvas>
+</div>
+<script src="logic.js"></script>
+<script src="audio.js"></script>
+
+</body>
+</html>
